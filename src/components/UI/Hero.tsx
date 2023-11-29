@@ -81,7 +81,7 @@ const Hero = () => {
       </div>
       <div className="hidden z-10 lg:flex fixed flex-col top-[35%] lg:right-[0px]">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] rounded-[16px]  duration-300 bg-blue-600 ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-blue-600"  style="padding: 15px"; "border-radius: 10px 0 0 10px">
             <a
               className="flex justify-between items-center w-full text-gray-50 pr-2 "
               target="blank"
@@ -91,7 +91,7 @@ const Hero = () => {
               Linkedin
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] rounded-[16px] duration-300 bg-darkMode dark:bg-black">
+          <li className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-darkMode dark:bg-black" style="padding: 15px"; "border-radius: 10px 0 0 10px" >
             <a
               className="flex justify-between items-center w-full text-gray-50 dark:text-textDark pr-2 "
               target="blank"
@@ -101,7 +101,7 @@ const Hero = () => {
               GitHub
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] rounded-[16px] duration-300 bg-[#6fc2b0]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#6fc2b0]" style="padding: 15px"; "border-radius: 10px 0 0 10px" >
             <a
               className="flex justify-between items-center w-full text-gray-50 pr-2"
               href="mailto:joaocpinheiro03@gmail.com"
